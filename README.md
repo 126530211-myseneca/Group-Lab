@@ -1,12 +1,12 @@
 # Group-Lab
 
-# Authors - Taranjot Kaur, Deepali Pareshkumar Vaghela and MD Shahin Alam
+Authors - Taranjot Kaur, Deepali Pareshkumar Vaghela and MD Shahin Alam
 
-In this lab we have developed a Rock, Paper and Scissors game. The game is a two players mode which means the user's opponent will be a computer. The game starts by asking the user to make a choice (rock, paper, scissors), if the choice is valid then the computer will randomly makes a choice and the winner will be declared. In case of an invalid input, an error will be displayed asking the user to try again. After declaring the winner, user will be asked whether to play again or exit. If the user would like to play again then the game will start from the beginning otherwise the game will end.
+In this lab we have developed a Rock, Paper and Scissors game. The game is a two-player mode, which means the user's opponent will be a computer. It starts by importing the random module to randomly select the computer's choice. It asks the player to choose between rock, paper, and scissors. The code then prints the choices made by the player and the computer. Then it checks for the winner based on the choices made by the player and the computer using an 'if-else' statement. The code checks for a tie by comparing the player and computer's choices, and then proceeds to check the remaining cases of who wins, based on the rules of the game. If the user's input is not one of the valid options, an error message is printed on the console. Finally, the program ends by printing a message thanking the user for playing and prompting them to play again.
 
-Overall, we worked as a team to complete this project. In order to work more efficiently and to complete project's tasks at time, we divided all the tasks between us.
+Overall, this code provides a fun and simple implementation of a Rock, Paper, Scissors game. We worked as a team to complete this project. In order to work more efficiently and to complete the project's tasks on time, we divided all the tasks between us.
 
-Individual contribution to the Group-Lab is as follows: 
-Taranjot, myself worked on creating the plan for the lab and developing the first half of the project which is "iteration1", whereas Deepali contributed to the project by building the design for the game, testing of both iteration and final deployment and MD Shahin worked constructing the second half of the project which is "iteration2". Testing was done to eradicate any bugs and errors affecting the performace of the game.
+Individual contributions to the Group-Lab are as follows: 
+Taranjot, I worked on creating the plan for the lab and developing the first half of the project, which, "iteration1", and final deployment, whereas Deepali contributed to the project by building the design for the game, testing both iteration and final deployment. MD Shahin worked on constructing the second half of the project, which is "iteration2". Testing was done to eradicate any bugs and errors affecting the performance of the game.
 
-After succesful testing of the development portion, the final part of the project "Deploy" was completed by pushing our code to the production (main branch).
+After successful testing of the development portion, the final part of the project, "Deploy", was completed by pushing our code to the production (main branch).
