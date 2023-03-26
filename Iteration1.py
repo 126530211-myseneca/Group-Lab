@@ -11,37 +11,31 @@ print("Welcome to Rock, Paper, Scissors")
 print("Your oponent is a computer!")
 
 # Computer will randomly choose an option
-ComputerOption = random.choice(options)
+ComputerChoice = random.choice(options)
 
 # Ask the player to make a choice
-PlayerOption = input("Please choose rock, paper or scissors: ").lower()
+PlayerChoice = input("Please choose rock, paper or scissors: ").lower()
 
 
 # To print choices of computer and the player
-print("You chose: ", PlayerOption)
-print(f"The computer chose: ", ComputerOption)
-
-
-# To check the validation of player's choice
-#if PlayerOption not in options:
-#      print("Invalid Choice! Please try again!")
- #     continue
+print("You chose: ", PlayerChoice)
+print("The computer chose: ", ComputerChoice)
 
 # Decides the winner
-if PlayerOption == ComputerOption:
+if PlayerChoice == ComputerChoice:
         print("It's a tie!")
-elif PlayerOption == "rock":
-        if ComputerOption == "paper":
+elif PlayerChoice == "rock":
+        if ComputerChoice == "paper":
                 print("You lose :(")
         else:
                 print("You win :)")
-elif PlayerOption == "paper":
-        if ComputerOption == "scissors":
+elif PlayerChoice == "paper":
+        if ComputerChoice == "scissors":
                 print("You lose :(")
         else:
                 print("You win :)")
-elif PlayerOption == "scissors":
-        if ComputerOption == "rock":
+elif PlayerChoice == "scissors":
+        if ComputerChoice == "rock":
                 print("You lose :(")
         else:
                 print("You win :)")
